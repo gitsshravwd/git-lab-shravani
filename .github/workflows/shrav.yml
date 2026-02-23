@@ -1,0 +1,12 @@
+name: Shravani's First CI
+
+on:
+  push:
+   
+jobs:
+  show-message:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Shravani
+      run: echo "CI is running successfully!"
